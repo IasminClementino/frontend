@@ -15,7 +15,7 @@ const btnAI = document.getElementById("btn-ai");
 const btnAIGen = document.getElementById("btn-ai-gen");
 const search = document.getElementById("search");
 
-// banco fake
+// banco fake para simular dados
 const db = [
   {
     date: "2026-03-21",

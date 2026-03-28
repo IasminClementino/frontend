@@ -25,22 +25,24 @@
 </header>
 
 <nav class="navbar">
+  <div class="navbar-buttons">
+    <div class="btn-group-history">
+      <button id="btn-history"><i class="fa-regular fa-clock"></i> Histórico</button>
+      <input type="date" id="date-picker">
+    </div>
+    <button id="btn-ai"><i class="fa-regular fa-credit-card"></i> IA Tradicional</button>
+    <button id="btn-ai-gen"><i class="fa-solid fa-user-astronaut"></i> IA Generativa</button>
+  </div>
+  
   <div class="input-group">
       <div class="input-icon">
-        <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
       </div>
       <input id="search"
       type="text" 
       class="input-field" 
-      placeholder="Pesquisar"
+      placeholder="Buscar..."
     >
-  </div>
-  
-  <div class="navbar-buttons">
-    <input type="date" id="search">
-    <button id="btn-history">Histórico</button>
-    <button id="btn-ai">IA Tradicional</button>
-    <button id="btn-ai-gen">IA Generativa</button>
   </div>
   
 </nav>

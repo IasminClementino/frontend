@@ -17,19 +17,6 @@
 
 <body>
 
-  <div id="container">
-    <div class="input-group">
-        <div class="input-icon">
-          <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
-        </div>
-        <input id="search"
-        type="text" 
-        class="input-field" 
-        placeholder="Pesquisar"
-      >
-    </div>
-  </div>
-
 <header>
   <div class="logo-box">
     <img src="logo-400.png" class="logo">
@@ -38,11 +25,23 @@
 </header>
 
 <nav class="navbar">
-  <input type="date" id="search">
-
-  <button id="btn-history">Histórico</button>
-  <button id="btn-ai">IA Tradicional</button>
-  <button id="btn-ai-gen">IA Generativa</button>
+  <div class="input-group">
+      <div class="input-icon">
+        <i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i>
+      </div>
+      <input id="search"
+      type="text" 
+      class="input-field" 
+      placeholder="Pesquisar"
+    >
+  </div>
+  
+  <div class="navbar-buttons">
+    <input type="date" id="search">
+    <button id="btn-history">Histórico</button>
+    <button id="btn-ai">IA Tradicional</button>
+    <button id="btn-ai-gen">IA Generativa</button>
+  </div>
   
 </nav>
 
